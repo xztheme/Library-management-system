@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background-color: #373F47;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.fl {
+    float: left;
+}
+
+.all {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    position: relative;
+    width: 1000px;
+    background-image: linear-gradient(#607D8B, #566f7c);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.title a {
+    top: 9px;
+    left: 864px;
+    position: absolute;
+    display: block;
+    width: 83px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #7193a3;
+    transition: all 0.3s;
+}
+
+.title a:hover {
+    transition: all 0.3s;
+    background-color: #475b64;
+}
+
+.content table {
+    width: 1000px;
+    background-color: #ffffff;
+    border-right: 1px solid #e2e2e2;
+    border-bottom: 1px solid#e2e2e2;
+}
+
+.content th {
+    color: #4d5f70;
+}
+
+.content table td,
+th {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-left: 1px solid#e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis推荐理由：快节奏的生活使得平时工作等;
+    max-width: 200px;
+    padding:0 10px;
+}
+
+.content .do {
+    color: #a4bac4;
+}
+
+.content .do a {
+    margin: 10px;
+    color: #e64165;
+}
+
+.content .do a:hover {
+    color: #1a9677;
+}
